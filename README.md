@@ -20,31 +20,50 @@ It features a modular and responsive design, focusing on clean UI components and
 
 📁 Path aliases using @ mapped to /src
 
-🛠️ Tech  Stack
+🛠️ Tech       Stack
 
 Category	     Tech
 
 Framework      React
+
 Styling	       Tailwind CSS
+
 Config         Override	CRACO
+
 Forms	         React Hook Form
+
 Icons	         Lucide React
+
 Carousel	     Embla Carousel
+
 State & Logic	 Zod, [React Hooks]
+
 UI Components	 Radix UI
 
 frontend/
+
 ├── public/                 # Static files
+
 ├── src/                   # Main React source code
+
 │   ├── components/        # UI components (Hero, Footer, etc.)
+
 │   ├── hooks/             # Custom React hooks
+
 │   ├── lib/               # Shared libraries
+
 │   ├── App.js             # Main App entry
+
 │   └── index.js           # ReactDOM root
+
 ├── craco.config.js        # CRACO config with Webpack alias + hot reload toggle
+
 ├── tailwind.config.js     # Tailwind theme and plugins
+
 ├── postcss.config.js      # PostCSS plugins
+
 ├── package.json           # Dependencies and scripts
+
 
 Getting Started
 
@@ -53,6 +72,7 @@ Getting Started
 cd frontend
 
 yarn install
+
 2. Start development server
 
 yarn start
